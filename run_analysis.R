@@ -33,4 +33,4 @@ colnames(selected.data) <- sub('std', 'Std', colnames(selected.data))
 
 # --- Calculate mean by subject and activty -----------------------------------
 mean.by.subject.activity <- selected.data %>% group_by(activity, subject) %>% summarize_each(funs(mean))
-write.table(mean.by.subject.activity, "mean_by_subject_and_activty.csv", row.names = FALSE, sep = ",")
+write.table(mean.by.subject.activity, "mean_by_subject_and_activity.csv", row.names = FALSE, sep = ",")

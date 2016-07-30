@@ -14,7 +14,7 @@ The following eight files are read from three folders in the uncompressed folder
 * `y_test.txt`: Determined activity numerical identifier for test set of data
 * `subject_test.txt`: Subject identifier for test set of data
 
-The contents of each file is first read then data is merged and variable names and activity labels tidied. Mean (but not meanFreq) and std variables are extracted and then averaged by activity and subject. The result is saved to variable 'mean.by.subject.activity' and file 'mean_by_subject_and_activty.csv'
+The contents of each file is first read then data is merged and variable names and activity labels tidied. Mean (but not meanFreq) and std variables are extracted and then averaged by activity and subject. The result is saved to variable 'mean.by.subject.activity' and file 'mean_by_subject_and_activity.csv'
 
 ## Code Book
 
