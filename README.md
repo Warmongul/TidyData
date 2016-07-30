@@ -12,4 +12,4 @@ Executing the script reads the data from multiple files in the set working direc
 
 ## CodeBook.md
 
-Contains a description script study design and output variables
+Contains a study design and description of output variables
